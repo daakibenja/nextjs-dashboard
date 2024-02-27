@@ -78,7 +78,7 @@ export default function Page() {
                     {
                         plans.map((plan) => {
                             return (
-                                <Package name={plan.name} tagline={plan.tagline} price={plan.price} features={plan.features} status={plan.status} />
+                                <Package key={plan.name} name={plan.name} tagline={plan.tagline} price={plan.price} features={plan.features} status={plan.status} />
                             )
                         })
                     }

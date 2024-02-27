@@ -31,7 +31,7 @@ export default function Package({ name, tagline, price, features, status }: { na
 			<ul role="list" className="mb-8 space-y-4 text-left">
 				{
 					features.map((feature) => {
-						return <li className="flex items-center space-x-3">
+						return <li key={feature} className="flex items-center space-x-3">
 							<svg className="w-6 h-6 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
 								fill="currentColor" viewBox="0 0 20 20">
 								<path
