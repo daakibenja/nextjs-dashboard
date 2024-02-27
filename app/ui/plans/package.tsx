@@ -1,11 +1,5 @@
 'use client';
 
-import PackageName from '@/app/ui/plans/package-name';
-import PackagePricing from '@/app/ui/plans/package-pricing';
-import PackageHeadline from '@/app/ui/plans/package-headline';
-import PackageFeatures from './package-features';
-import PackageSubscription from '@/app/ui/plans/package-subscription';
-
 export default function Package({ name, tagline, price, features, status }: { name: string, tagline: string, price: Number, features: Array<string>, status: { isSubscribed: boolean } }) {
 
 	// const features = [
@@ -64,8 +58,8 @@ export default function Package({ name, tagline, price, features, status }: { na
 				</li> */}
 			</ul>
 
-			{status.isSubscribed && <button className="w-full p-2 bg-blue-500 text-white font-bold gap-2 shadow uppercase">Current Plan</button>}
-			{!status.isSubscribed && <button className="w-full p-2 bg-blue-500 text-white font-bold gap-2 shadow uppercase">Subscrib Now</button>}
+			{status.isSubscribed && <button className="w-full p-2 bg-blue-400 text-white font-bold gap-2 shadow uppercase">Current Plan</button>}
+			{!status.isSubscribed && <button className="w-full p-2 bg-blue-400 text-white font-bold gap-2 shadow uppercase">Subscrib Now</button>}
 		</div>
 	);
 
