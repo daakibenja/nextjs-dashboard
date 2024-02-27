@@ -12,7 +12,7 @@ export default function Package({ name, tagline, price, features, status }: { na
 	return (
 		<div
 
-			className="flex flex-col p-6 mx-auto max-w-md text-center rounded-box shadow-xl xl:p-8  border border-base-300 shadow-primary/10 border-primary/10 transition hover:border-primary-focus/20 hover:shadow-primary-focus/20">
+			className="flex flex-col p-6 mx-auto max-w-md text-center rounded-box shadow-xl xl:p-8  border border-base-300 shadow-primary/10 border-primary/10 transition border-color-blue-200 hover:border-primary-focus/20 hover:shadow-primary-focus/20 border-solid border-2 border-blue-100">
 			<h3 className="mb-4 text-2xl font-semibold">{name}</h3>
 			<div className="flex justify-center items-baseline my-1 h-10">
 				<p className="font-light sm:text-lg">{tagline}</p>
@@ -59,7 +59,7 @@ export default function Package({ name, tagline, price, features, status }: { na
 			</ul>
 
 			{status.isSubscribed && <button className="w-full p-2 bg-blue-400 text-white font-bold gap-2 shadow uppercase">Current Plan</button>}
-			{!status.isSubscribed && <button className="w-full p-2 bg-blue-400 text-white font-bold gap-2 shadow uppercase">Subscrib Now</button>}
+			{!status.isSubscribed && <button className="w-full p-2 bg-blue-400 text-white font-bold gap-2 shadow uppercase">Subscribe Now</button>}
 		</div>
 	);
 
