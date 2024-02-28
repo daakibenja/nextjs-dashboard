@@ -16,7 +16,7 @@ export default function HeaderSection() {
                         <a href="/" className="flex items-center justify-between -m-1.5 p-1.5">
 
                             <Image className="h-8 w-auto flex-1/4" src={logoPic} alt='Company Logo' />
-                            <h1 className="text-3xl flex-3/4 text-blue-500">Silver Swims School</h1>
+                            <h1 className="text-3xl flex-3/4 text-blue-500">SILVER SWIMS SCH</h1>
                         </a>
                     </div>
                     <div className="flex lg:hidden" >
@@ -45,7 +45,7 @@ export default function HeaderSection() {
                         <div className="flex items-center justify-between">
                             <a href="/" className="flex items-center justify-between -m-1.5 p-1.5">
                                 <Image className="h-8 w-auto flex-1/4" src={logoPic} alt='Company Logo' />
-                                <h1 className="text-3xl flex-3/4 text-blue-500">Silver Swims School</h1>
+                                <h1 className="text-3xl flex-3/4 text-blue-500">SILVER SWIMS SCH</h1>
                             </a>
                             <button onClick={() => toggleMenu()} type="button" className="-m-2.5 rounded-md p-2.5 text-gray-700">
                                 <span className="sr-only">Close menu</span>
