@@ -68,7 +68,7 @@ export default function Page() {
 
 
 
-        <section className="p-4 md:p-8 bg-blue-100">
+        <section className="p-4 md:p-8 bg-blue-0">
             <HeaderSection />
             <div className="py-8 mt-10 max-w-screen-xl lg:py-16">
                 <div className="mx-auto max-w-3xl text-center pb-12 md:pb-20">
