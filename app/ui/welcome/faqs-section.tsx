@@ -1,7 +1,7 @@
 export default function FaqsSection() {
     return <div>
 
-        <div className="mx-auto max-w-2xl divide-y divide-gray-900/10 px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32">
+        {/* <div className="mx-auto max-w-2xl divide-y divide-gray-900/10 px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32">
             <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
             <div className="mt-10 space-y-8 divide-y divide-gray-900/10">
                 <div className="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
@@ -11,6 +11,6 @@ export default function FaqsSection() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
 }
