@@ -14,7 +14,7 @@ import CtaSection from './ui/welcome/cta-section';
 import FooterSection from './ui/welcome/footer-section';
 export default function Page() {
   return (
-    <main className="bg-blue-0 isolate">
+    <main className={`bg-blue-0 isolate ${lusitana.className } unaliased`}>
       <HeaderSection />
       <HelloSection />
       <LogoPartners />
