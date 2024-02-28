@@ -1,6 +1,6 @@
 export default function TestimonialSection() {
     return <div>
-        <div className="mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8">
+        {/* <div className="mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8">
             <div className="relative overflow-hidden bg-gray-900 px-6 py-20 shadow-xl sm:rounded-3xl sm:px-10 sm:py-24 md:px-12 lg:px-20">
                 <img className="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0" src="https://www.lifewire.com/thmb/yZ8y7fKEO-TfDv5shoqMei7vlg8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-watch-tiktok-without-the-app-08-9d3dc65a8cf34a0d8c72dd518b51eb91.jpg" alt="" />
                 <div className="absolute inset-0 bg-gray-900/90 mix-blend-multiply"></div>
@@ -22,6 +22,6 @@ export default function TestimonialSection() {
                     </figure>
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
 }
