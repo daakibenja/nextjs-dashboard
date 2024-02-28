@@ -1,5 +1,5 @@
 import Package from "../ui/plans/package";
-
+import HeaderSection from "../ui/welcome/header-section";
 export default function Page() {
     const plans = [
 
@@ -67,8 +67,10 @@ export default function Page() {
 
 
 
-        <section className="p-4 md:p-8 bg-blue-50">
-            <div className="py-8 max-w-screen-xl lg:py-16">
+
+        <section className="p-4 md:p-8 bg-blue-100">
+            <HeaderSection />
+            <div className="py-8 mt-10 max-w-screen-xl lg:py-16">
                 <div className="mx-auto max-w-3xl text-center pb-12 md:pb-20">
                     <h2 className="text-3xl font-bold sm:text-4xl mb-4">Pricing Plans</h2>
                     <p className="text-xl">Choose a plan that best suits your swimming interests.</p>
