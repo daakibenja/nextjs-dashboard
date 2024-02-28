@@ -14,7 +14,7 @@ export default function TestimonialSection() {
                     <img className="h-12 w-auto" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/2560px-TikTok_logo.svg.png" alt="" />
                     <figure>
                         <blockquote className="mt-6 text-lg font-semibold text-white sm:text-xl sm:leading-8">
-                            <p>“you get famous here easly because it's one of the most famous apps in the world, get easy money.”</p>
+                            <p>you get famous here easly because it's one of the most famous apps in the world, get easy money.</p>
                         </blockquote>
                         <figcaption className="mt-6 text-base text-white">
                             <div className="font-semibold">Shehab Coding</div>
