@@ -18,10 +18,10 @@ export default function Page() {
       <HeaderSection />
       <HelloSection />
       <LogoPartners />
-      <FeatureSection />
-      <TestimonialSection />
-      <FaqsSection />
-      <CtaSection />
+      {/* <FeatureSection /> */}
+      {/* <TestimonialSection /> */}
+      {/* <FaqsSection /> */}
+      {/* <CtaSection /> */}
       <FooterSection />
     </main>
   );

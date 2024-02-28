@@ -1,5 +1,6 @@
 import Package from "../ui/plans/package";
 import HeaderSection from "../ui/welcome/header-section";
+import FooterSection from "../ui/welcome/footer-section";
 export default function Page() {
     const plans = [
 
@@ -86,6 +87,8 @@ export default function Page() {
                     }
                 </div>
             </div>
+            <FooterSection />
+
         </section>
     </div>
 }
